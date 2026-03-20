@@ -46,3 +46,12 @@ ThatOpen community examples sometimes use deprecated patterns or workarounds. Al
 
 ## L-015: Changelog Discipline Prevents Confusion
 Without a changelog, it is impossible to know what changed between sessions. Every modification gets logged, no matter how small.
+
+## L-016: Always Verify Package Versions Before Starting
+The CLAUDE.md initially targeted @thatopen/components 2.x, but live research revealed the ecosystem had moved to 3.3.x with significant API changes. Always fetch current npm registry data before writing skills.
+
+## L-017: Parallel Agent Batches Scale Well
+Running 3-4 skill creation agents in parallel per batch completed 18 skills in ~45 minutes. The batch-of-3 pattern with dependency ordering prevented conflicts while maximizing throughput.
+
+## L-018: v2 to v3 API Changes Are Skill-Breaking
+ThatOpen renamed Plans→Views+ClipStyler, added Hoverer/Mesher/FastModelPicker, and changed FragmentsGroup→FragmentsModel. Skills written against v2 docs would have been incorrect. Live source verification (P-002) caught this.
