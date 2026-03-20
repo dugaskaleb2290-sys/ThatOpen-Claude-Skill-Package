@@ -132,4 +132,17 @@ MIT License - see [LICENSE](LICENSE) for details.
 
 ---
 
+## Companion Skills: Cross-Technology Integration
+
+> **[Cross-Tech AEC Integration Skills](https://github.com/OpenAEC-Foundation/Cross-Tech-AEC-Claude-Skill-Package)** — 15 skills for technology boundaries
+
+| Skill | Boundary | What it adds |
+|-------|----------|-------------|
+| `crosstech-impl-ifc-to-webifc` | IfcOpenShell ↔ web-ifc | Server-side vs browser-side IFC processing |
+| `crosstech-impl-ifc-to-threejs` | IFC ↔ Three.js | @thatopen/components integration |
+| `crosstech-impl-bim-web-viewer` | BIM ↔ Web browser | Full BIM viewer pipeline with ThatOpen components |
+| `crosstech-core-ifc-schema-bridge` | IFC ↔ All formats | How web-ifc property access differs from IfcOpenShell |
+
+---
+
 Built with the [Skill Package Workflow Template](https://github.com/OpenAEC-Foundation/Skill-Package-Workflow-Template) methodology.
