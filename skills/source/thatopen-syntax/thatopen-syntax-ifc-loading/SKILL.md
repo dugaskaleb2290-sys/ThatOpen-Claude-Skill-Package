@@ -15,7 +15,7 @@ metadata:
   version: "1.0"
 ---
 
-# IFC Loading — IfcLoader & IfcImporter
+# IFC Loading: IfcLoader & IfcImporter
 
 ## Overview
 
@@ -125,7 +125,7 @@ world.scene.three.add(model.object);
 - Set `coordinate: true` when loading multiple models that must align spatially.
 - Set `coordinate: false` for single-model scenarios or when manual positioning is needed.
 
-### `readIfcFile()` — Low-Level Access
+### `readIfcFile()`: Low-Level Access
 
 ```typescript
 const modelID = await ifcLoader.readIfcFile(data);

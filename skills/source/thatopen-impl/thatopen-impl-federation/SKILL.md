@@ -142,7 +142,7 @@ for (const [id, model] of fragments.list) {
 }
 ```
 
-## Hider — Visibility Control
+## Hider: Visibility Control
 
 The Hider component controls element visibility at the fragment level. It
 operates on ModelIdMap, making it ideal for per-model and cross-model
@@ -240,7 +240,7 @@ const hiddenItems = hider.getVisibilityMap(false);
 hider.set(true);
 ```
 
-## BoundingBoxer — Spatial Queries
+## BoundingBoxer: Spatial Queries
 
 BoundingBoxer computes axis-aligned bounding boxes for elements or entire
 models. Use it to fit the camera to selections, compute model extents, or

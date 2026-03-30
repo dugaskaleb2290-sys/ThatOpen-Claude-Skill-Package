@@ -1,0 +1,6 @@
+# OpenAI Codex skill discovery
+name: thatopen-claude-skill-package
+description: >
+  Production-ready Claude Code skills for ThatOpen Engine 3.3.x.
+  18 skills for building web-based BIM applications.
+skills_directory: ./skills/source

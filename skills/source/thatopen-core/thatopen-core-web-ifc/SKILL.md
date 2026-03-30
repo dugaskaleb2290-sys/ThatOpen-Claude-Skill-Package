@@ -16,7 +16,7 @@ metadata:
   version: "1.0"
 ---
 
-# web-ifc Engine — Direct WASM IFC Parser
+# web-ifc Engine: Direct WASM IFC Parser
 
 ## Overview
 

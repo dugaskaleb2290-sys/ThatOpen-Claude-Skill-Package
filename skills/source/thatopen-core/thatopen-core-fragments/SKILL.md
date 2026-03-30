@@ -200,7 +200,7 @@ wrong positions without alignment.
 
 ## Data Operations
 
-### getData — Extract IFC Properties
+### getData: Extract IFC Properties
 
 ```typescript
 const items: ModelIdMap = { [model.modelId]: new Set([42, 43, 44]) };
@@ -209,14 +209,14 @@ const data = await fragments.getData(items);
 // Keys are model IDs, values are arrays of property data per element
 ```
 
-### getPositions — Get 3D Coordinates
+### getPositions: Get 3D Coordinates
 
 ```typescript
 const positions = await fragments.getPositions(items);
 // Returns: THREE.Vector3[] — center positions of targeted elements
 ```
 
-### getBBoxes — Get Bounding Boxes
+### getBBoxes: Get Bounding Boxes
 
 ```typescript
 const boxes = await fragments.getBBoxes(items);

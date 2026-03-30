@@ -372,7 +372,7 @@ checkbox.addEventListener("change", (e) => {
 });
 ```
 
-## @thatopen/ui-obc — Functional BIM Components
+## @thatopen/ui-obc: Functional BIM Components
 
 These are pre-built UI component factories that wire `@thatopen/ui` elements
 to `@thatopen/components` engine functionality. ALWAYS import from

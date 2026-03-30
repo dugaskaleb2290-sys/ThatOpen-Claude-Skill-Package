@@ -336,7 +336,7 @@ fragments.onFragmentsLoaded.reset();             // remove ALL handlers
 
 See [references/examples.md](references/examples.md) for detailed patterns.
 
-## DataMap\<K, V\> — Reactive Map
+## DataMap\<K, V\>: Reactive Map
 
 Extends the standard `Map` with event hooks. Used throughout ThatOpen
 for observable collections (e.g., `Components.list`, `Worlds.list`,
@@ -381,7 +381,7 @@ worlds.list.onCleared.add(() => {
 });
 ```
 
-## DataSet\<T\> — Reactive Set
+## DataSet\<T\>: Reactive Set
 
 Extends the standard `Set` with event hooks. Used for collections like
 `world.meshes`, measurement lists, and style sets.

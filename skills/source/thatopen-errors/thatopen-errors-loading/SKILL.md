@@ -16,7 +16,7 @@ metadata:
   version: "1.0"
 ---
 
-# Loading Errors — Diagnosis & Recovery
+# Loading Errors: Diagnosis & Recovery
 
 ## Overview
 
@@ -414,7 +414,7 @@ fragmentsManager.dispose();
 
 ---
 
-## Diagnostic Checklist — Loading Failures
+## Diagnostic Checklist: Loading Failures
 
 When an IFC file fails to load, work through this checklist in order:
 

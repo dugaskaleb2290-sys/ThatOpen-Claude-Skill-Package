@@ -50,7 +50,7 @@ import { LineMaterial } from "three/examples/jsm/lines/LineMaterial.js";
 
 ---
 
-## 1. Clipper — Creating Clipping Planes
+## 1. Clipper: Creating Clipping Planes
 
 The `Clipper` component creates and manages `SimplePlane` instances that clip
 the scene geometry. It lives in `@thatopen/components` (works in browser and
@@ -157,7 +157,7 @@ See `references/methods.md` for full API.
 
 ---
 
-## 2. ClipStyler — Styled Edge Visualization
+## 2. ClipStyler: Styled Edge Visualization
 
 `ClipStyler` adds colored edge outlines and fill materials to clipping planes.
 It lives in `@thatopen/components-front` (browser-only).
@@ -271,7 +271,7 @@ See `references/methods.md` for full ClipEdges instance API.
 
 ---
 
-## 3. Views — Named Section Views
+## 3. Views: Named Section Views
 
 The `Views` component manages named orthogonal section views. Each view has
 a primary clipping plane, a far clipping plane, and a camera configuration.

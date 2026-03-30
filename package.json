@@ -1,0 +1,43 @@
+{
+  "name": "@openaec/thatopen-claude-skill-package",
+  "version": "1.1.0",
+  "description": "Production-ready Claude Code skills for ThatOpen Engine 3.3.x — 18 skills for building web-based BIM applications",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OpenAEC-Foundation/ThatOpen-Claude-Skill-Package"
+  },
+  "keywords": [
+    "agent-skills",
+    "agentskills",
+    "claude-skills",
+    "thatopen",
+    "bim",
+    "ifc",
+    "web-ifc",
+    "threejs",
+    "aec"
+  ],
+  "agents": {
+    "skills": [
+      { "name": "thatopen-agents-model-analyzer", "path": "./skills/source/thatopen-agents/thatopen-agents-model-analyzer" },
+      { "name": "thatopen-agents-viewer-builder", "path": "./skills/source/thatopen-agents/thatopen-agents-viewer-builder" },
+      { "name": "thatopen-core-architecture", "path": "./skills/source/thatopen-core/thatopen-core-architecture" },
+      { "name": "thatopen-core-fragments", "path": "./skills/source/thatopen-core/thatopen-core-fragments" },
+      { "name": "thatopen-core-web-ifc", "path": "./skills/source/thatopen-core/thatopen-core-web-ifc" },
+      { "name": "thatopen-errors-loading", "path": "./skills/source/thatopen-errors/thatopen-errors-loading" },
+      { "name": "thatopen-errors-performance", "path": "./skills/source/thatopen-errors/thatopen-errors-performance" },
+      { "name": "thatopen-impl-bcf", "path": "./skills/source/thatopen-impl/thatopen-impl-bcf" },
+      { "name": "thatopen-impl-clipping-plans", "path": "./skills/source/thatopen-impl/thatopen-impl-clipping-plans" },
+      { "name": "thatopen-impl-federation", "path": "./skills/source/thatopen-impl/thatopen-impl-federation" },
+      { "name": "thatopen-impl-highlighting", "path": "./skills/source/thatopen-impl/thatopen-impl-highlighting" },
+      { "name": "thatopen-impl-measurements", "path": "./skills/source/thatopen-impl/thatopen-impl-measurements" },
+      { "name": "thatopen-impl-navigation", "path": "./skills/source/thatopen-impl/thatopen-impl-navigation" },
+      { "name": "thatopen-impl-viewer", "path": "./skills/source/thatopen-impl/thatopen-impl-viewer" },
+      { "name": "thatopen-syntax-components", "path": "./skills/source/thatopen-syntax/thatopen-syntax-components" },
+      { "name": "thatopen-syntax-ifc-loading", "path": "./skills/source/thatopen-syntax/thatopen-syntax-ifc-loading" },
+      { "name": "thatopen-syntax-properties", "path": "./skills/source/thatopen-syntax/thatopen-syntax-properties" },
+      { "name": "thatopen-syntax-ui", "path": "./skills/source/thatopen-syntax/thatopen-syntax-ui" }
+    ]
+  }
+}

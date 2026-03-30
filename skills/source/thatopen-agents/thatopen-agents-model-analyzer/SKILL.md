@@ -16,7 +16,7 @@ metadata:
   version: "1.0"
 ---
 
-# ThatOpen Model Analyzer — Agent Workflow
+# ThatOpen Model Analyzer: Agent Workflow
 
 ## Purpose
 
@@ -66,7 +66,7 @@ Before starting any analysis workflow, verify these conditions:
 
 ---
 
-## Analysis Workflow — Step by Step
+## Analysis Workflow: Step by Step
 
 ### Phase 1: Model Identification
 

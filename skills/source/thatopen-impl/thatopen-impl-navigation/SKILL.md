@@ -16,7 +16,7 @@ metadata:
   version: "1.0"
 ---
 
-# ThatOpen Navigation — OrthoPerspectiveCamera
+# ThatOpen Navigation: OrthoPerspectiveCamera
 
 ## Overview
 
