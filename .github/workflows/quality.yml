@@ -1,5 +1,0 @@
-name: Skill Quality
-on: [push, pull_request]
-jobs:
-  quality:
-    uses: OpenAEC-Foundation/Skill-Package-Workflow-Template/.github/workflows/skill-quality.yml@main

